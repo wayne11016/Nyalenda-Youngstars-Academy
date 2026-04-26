@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2 class="title">Team Squad</h2>
+
+<div class="players-container">
+    {% for player in players %}
+    <div class="player-card">
+        <div class="jersey">#{{ player.number }}</div>
+        <h3>{{ player.name }}</h3>
+        <p>{{ player.position }}</p>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

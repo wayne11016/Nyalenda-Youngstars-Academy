@@ -1,0 +1,45 @@
+.title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* PLAYER GRID */
+.players-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* PLAYER CARD */
+.player-card {
+    background: #1b263b;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.player-card:hover {
+    transform: scale(1.05);
+    background: #00b4d8;
+}
+
+.jersey {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .players-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .players-container {
+        grid-template-columns: 1fr;
+    }
+}
