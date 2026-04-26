@@ -15,6 +15,8 @@ def about():
 @app.route('/players')
 def players():
     players = [
+        
+        {"number": 18, "name": "Harry", "position": "Forward"},
         {"number": 7, "name": "Bret", "position": "Forward"},
         {"number": 17, "name": "Lenny", "position": "Midfielder"},
         {"number": 8, "name": "Amimo", "position": "Midfielder"},
