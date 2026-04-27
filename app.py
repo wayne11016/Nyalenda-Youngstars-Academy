@@ -18,7 +18,7 @@ def players():
         
         {"number": 18, "name": "Harry", "position": "Forward"},
         {"number": 7, "name": "Bret", "position": "Forward"},
-        {"number": 17, "name": "Lenny", "position": "Midfielder"},
+        {"number": 17, "name": "Lenny", "position": "Midfielder","image":"lenny.jpg"},
         {"number": 8, "name": "Amimo", "position": "Midfielder"},
         {"number": 1, "name": "Daniel", "position": "Goalkeeper"},
         {"number": 6, "name": "Seth", "position": "Midfielder"},
